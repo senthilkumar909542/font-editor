@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #219c90;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.body{
+    background-color: #183D3D ;
+}
+
+.body-2{
+    background-color: #352F44 !important;
+    border: 1px solid white !important;
+}
+.box-color{
+    background-color: rgb(152, 143, 143) !important;
+}
+
+.font-color{
+    color: white
+}
+
+#btn {
+  position: relative;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#l {
+  position: absolute;
+
+}
+
+#d {
+  position: absolute;  
+
+}
+
+.unhide{
+    visibility: visible;
+}
+
+.hide{
+    visibility: hidden;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60rem;
+  height: 34rem;
+  background-color: #e4e4d0;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.container > h1 {
+  font-family: monospace;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 4rem;
+  width: 20rem;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+input {
+  text-align: center;
+  font-size: 18px;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 30px;
+}
+.button {
+  text-align: center;
+}
+.button > button {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.style > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  height: 40px !important;
+  width: 80px !important;
+}
+
+.format {
+  width: 40rem;
+}
+.format > h1 {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  font-family: monospace;
+  margin-bottom: 5px;
+}
+.format > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.format > div > div {
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.color-1 {
+  background-color: #040d12;
+}
+.color-2 {
+  background-color: #1b417d;
+}
+.color-3 {
+  background-color: #62588e;
+}
+.color-4 {
+  background-color: #9e4784;
+}
+.color-5 {
+  background-color: #fbf0b2;
+}
+
+.style-1 {
+  font-family: monospace;
+}
+.style-2 {
+  font-family: "Croissant One", cursive;
+}
+.style-3 {
+  font-family: "Dosis", sans-serif;
+}
+.style-4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.style-5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background-1 {
+  background-color: #79e0ee;
+}
+.background-2 {
+  background-color: #96b6c5;
+}
+.background-3 {
+  background-color: #aec3ae;
+}
+.background-4 {
+  background-color: #9babb8;
+}
+.background-5 {
+  background-color: #ffb6d9;
+}
+
+.color-1:active {
+  background-color: #10212b;
+}
+.color-2:active {
+  background-color: #26477d;
+}
+.color-3:active {
+  background-color: #716995;
+}
+.color-4:active {
+  background-color: #9f5789;
+}
+.color-5:active {
+  background-color: #f7eba6;
+}
+
+.style-1:active,
+.style-2:active,
+.style-3:active,
+.style-4:active,
+.style-5:active {
+  background-color: rgb(228, 214, 214);
+}
+
+.background-1:active {
+  background-color: #44d9ed;
+}
+.background-2:active {
+  background-color: #89b3c7;
+}
+.background-3:active {
+  background-color: #aec3ae;
+}
+.background-4:active {
+  background-color: #8ca6bc;
+}
+.background-5:active {
+  background-color: #ffb6d9;
+}
